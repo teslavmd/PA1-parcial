@@ -6,7 +6,7 @@
 - Desarrollar una feature, a nivel core, que permita el registro de la entidad Piloto
 
 ### Evaluacion
-- Fecha de Entrega: 19/10/2024 16:00:00 UTC-3
+- Fecha de Entrega (máximo): 27/05/2025 20:00:00 UTC-3
 - El proyecto debe compilar sin errores en cualquier entorno de programación en el que se abra
 - Todos los test unitarios deben pasar en verde
 - Se generará solo un branch para la feature, partiendo desde main
@@ -23,6 +23,7 @@ _Se desea implementar un backend para un microservicio que permita registrar pil
 - Todos los atributos de Piloto son obligatorios
 - El piloto no puede ser menor a 18 años
 - El caso de uso debe devolver el ID asignado al Piloto creado exitosamente
+- El ID del piloto debe ser de tipo UUID
 
 #### Funcionalidad
 - Crear Piloto
