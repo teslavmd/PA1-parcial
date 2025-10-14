@@ -53,6 +53,15 @@ public class Piloto {
         return this.nombre;
     }
 
+    public String getDni(){
+        return this.dni;
+    }
+
+    public LocalDate getFechaNacimiento(){
+        return this.fechaNacimiento;
+    }
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
